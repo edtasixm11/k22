@@ -1,4 +1,9 @@
 #k22:kpam
+
+Posar molta atenció a accedir al servidor ssh per el mateix nom amb el que s'ha
+generat el principal de kerberos, sshd.edt.org, no servirà sis'accedeix per IP o 
+via localhost (en el propi server)
+
 ```
 $ docker run --rm --name kpam.edt.org -h kpam.edt.org --net 2hisx -it edtasixm11/k22:kpam
 ```
