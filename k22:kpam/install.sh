@@ -21,3 +21,6 @@ do
   useradd -m -s /bin/bash $user
 done
 
+
+# ---------
+
