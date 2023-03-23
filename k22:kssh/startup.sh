@@ -1,4 +1,5 @@
 #! /bin/bash
 
 /opt/docker/install.sh && echo "Ok install"
-/bin/bash
+/usr/sbin/sshd -D
+
